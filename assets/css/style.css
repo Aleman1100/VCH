@@ -4,14 +4,23 @@ body {
 }
 
 .viajes-logo {
-    width: 132px;
-    height: 53px;
+    width: 122px;
+    height: 43px;
+}
+
+.navbar {
+    background-color: steelblue;
+} 
+
+.navbar .container-fluid .navbar-brand {
+    margin-left: 90px;
 }
 
 .fas {
     background-color: steelblue;
     display: flex;
     justify-content: center;
+    height: 36px;
 }
 
 .card-body {
@@ -27,3 +36,18 @@ footer {
     text-decoration:none
 }
 
+.carousel {
+    margin-bottom: 40px;
+}
+
+hr {
+    color: steelblue;
+}
+
+.quienesTXT {
+    padding:0px 20px;
+}
+
+.quienesVCH {
+    margin-bottom:100px;
+}
