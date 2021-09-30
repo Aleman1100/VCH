@@ -48,6 +48,14 @@ hr {
     padding:0px 20px;
 }
 
-.quienesVCH {
+.quienesVCH, .DestacaVCH {
     margin-bottom:100px;
+}
+
+.VCH-card {
+    height:382px;
+}
+
+.fab {
+    margin:4px 4px 0px;
 }
