@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color:aliceblue;
+}
+
+.viajes-logo {
+    width: 132px;
+    height: 53px;
+}
+
+.fas {
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body {
+    background-color: steelblue;
+}
