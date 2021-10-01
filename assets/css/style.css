@@ -77,6 +77,16 @@ hr {
     margin:4px 4px 0px;
 }
 
+.jraLOI {
+    background-color: #fff;
+}
+
+#FormularioT {
+    width: 90%;
+    height:400px;
+    margin: auto;
+}
+
 /* Breakpoints *//* Breakpoints *//* Breakpoints *//* Breakpoints *//* Breakpoints *//* Breakpoints *//* Breakpoints */
 
 @media (max-width: 980px) {
