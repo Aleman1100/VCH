@@ -23,6 +23,7 @@
 
         </head>
         <body>
+          <header>
             <section class="Inicio VCH">
             <!--Navbar con smooth scroll-->
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -49,17 +50,18 @@
                   </div>
                 </div>
               </nav>
+            </header>
             <!--Carousel con 3 imagenes-->
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="destino1">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="destino1" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Paisajes que te sorprenderan">
                   </div>
                   <div class="carousel-item">
-                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="destino2">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="destino2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Destinos culturales">
                   </div>
                   <div class="carousel-item">
-                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="destino3">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="destino3" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Animales nativos y exóticos">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -78,7 +80,7 @@
               <hr class="mx-5 mb-4" style="height:4px">
               <div class="container">
                 <div class="row justify-content-center">
-                  <div class="col-12 col-md-4 quienesTXT">
+                  <div class="col-12 col-md-4 col-sm-12 mb-2 quienesTXT">
                     <i class="fas fa-plane fa-2x mb-2"></i>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -87,16 +89,17 @@
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                   </div>
 
-                  <div class="col-12 col-md-4 quienesTXT">
+                  <div class="col-12 col-md-4 col-sm-12 mb-2 quienesTXT">
+                    <i class="fas fa-mountain fa-2x iconVariantUp"></i>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <i class="fas fa-mountain fa-2x"></i>
+                    <i class="fas fa-mountain fa-2x iconVariantDown"></i>
                   </div>
 
-                  <div class="col-12 col-md-4 quienesTXT">
+                  <div class="col-12 col-md-4 col-sm-12 mb-2 quienesTXT">
                     <i class="fas fa-route fa-2x mb-2"></i>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
@@ -113,8 +116,8 @@
               <hr class="mx-5 mb-4 " style="height:4px">
               <div class="container">
                 <div class="row justify-content-center">
-                  <div class="col-12 col-md-3">
-                    <div class="card VCH-card">
+                  <div class="col-12 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="card VCH-card mb-3">
                         <img height="150" width="248" src="assets/img/card1.jpg" class="card-img-top" alt="card1">
                         <div class="card-body cardVCH">
                           <h4 class="fw-light text-start mb-3">Lorem ipsum dolor sit amet</h4>  
@@ -122,8 +125,8 @@
                         </div>
                     </div>
                   </div>
-                  <div class="col-12 col-md-3">
-                    <div class="card VCH-card">
+                  <div class="col-12 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="card VCH-card mb-3">
                         <img height="150" width="248" src="assets/img/card2.jpg" class="card-img-top" alt="card2">
                         <div class="card-body cardVCH">
                           <h4 class="fw-light text-start mb-3">Consectetur adipiscing elit</h4>  
@@ -131,8 +134,8 @@
                         </div>
                     </div>
                   </div>
-                  <div class="col-12 col-md-3">
-                    <div class="card VCH-card">
+                  <div class="col-12 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="card VCH-card mb-3">
                         <img height="150" width="248" src="assets/img/card3.jpg" class="card-img-top" alt="card3">
                         <div class="card-body cardVCH">
                           <h4 class="fw-light text-start mb-3">Sed do eiusmod tempor incididunt ut labore</h4>  
@@ -140,8 +143,8 @@
                         </div>
                     </div>
                   </div>
-                  <div class="col-12 col-md-3">
-                    <div class="card VCH-card">
+                  <div class="col-12 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="card VCH-card mb-3">
                         <img height="150" width="248" src="assets/img/card4.jpg" class="card-img-top" alt="card4">
                         <div class="card-body cardVCH">
                           <h4 class="fw-light text-start mb-3">Ut enim ad minim veniam</h4>  
