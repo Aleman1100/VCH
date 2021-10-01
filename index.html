@@ -22,9 +22,9 @@
             <link rel="stylesheet" href="assets/css/style.css">
 
         </head>
-        <body>
+        <body onload="CargaCompleta()">
           <header>
-            <section class="Inicio VCH">
+            <section id="InicioVCH">
             <!--Navbar con smooth scroll-->
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
                 <div class="container-fluid">
@@ -35,16 +35,16 @@
                   <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#InicioVCH">Inicio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="#quienesVCH">Quienes Somos</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Destacados</a>
+                        <a class="nav-link" href="#DestacaVCH">Destacados</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contactoVCH">Contacto</a>
                       </li>
                     </ul>
                   </div>
@@ -75,14 +75,14 @@
               </div>
             </section>
 
-            <section class="quienesVCH">
+            <section id="quienesVCH">
               <h2 class="text-center mb-4 fw-normal">¿Quienes Somos?</h2>
               <hr class="mx-5 mb-4" style="height:4px">
               <div class="container">
                 <div class="row justify-content-center">
                   <div class="col-12 col-md-4 col-sm-12 mb-2 quienesTXT">
-                    <i class="fas fa-plane fa-2x mb-2"></i>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    <i class="fas fa-plane fa-2x mb-2" onclick="myFunction1()"></i>
+                    <p id="destacado1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -90,18 +90,18 @@
                   </div>
 
                   <div class="col-12 col-md-4 col-sm-12 mb-2 quienesTXT">
-                    <i class="fas fa-mountain fa-2x iconVariantUp"></i>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    <i class="fas fa-mountain fa-2x iconVariantUp" onclick="myFunction2()"></i>
+                    <p id="destacado2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <i class="fas fa-mountain fa-2x iconVariantDown"></i>
+                    <i class="fas fa-mountain fa-2x iconVariantDown" onclick="myFunction2()"></i>
                   </div>
 
                   <div class="col-12 col-md-4 col-sm-12 mb-2 quienesTXT">
-                    <i class="fas fa-route fa-2x mb-2"></i>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    <i class="fas fa-route fa-2x mb-2" onclick="myFunction3()"></i>
+                    <p id="destacado3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -111,7 +111,7 @@
               </div> 
             </section>
 
-            <section class="DestacaVCH">
+            <section id="DestacaVCH">
               <h2 class="text-center mb-4 fw-normal">Destacados</h2>
               <hr class="mx-5 mb-4 " style="height:4px">
               <div class="container">
@@ -154,10 +154,10 @@
                   </div>
             </section>
 
-            <section class="contactoVCH">
+            <section id="contactoVCH">
               <h2 class="text-center mb-4 fw-normal">Contacto</h2>
               <hr class="mx-5 mb-4" style="height:4px">
-              <!--<div data-tf-widget="gWSPdGdG" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>-->
+              <div data-tf-widget="gWSPdGdG" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
             </section>
 
             <footer class="d-flex justify-content-around">

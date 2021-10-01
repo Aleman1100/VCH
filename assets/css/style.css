@@ -3,10 +3,18 @@ body {
     color:aliceblue;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 header {
     margin-bottom: 45px;
 }
 
+.descatadoP {
+    font-weight: 700;
+    color:cornflowerblue;
+}
 
 .viajes-logo {
     width: 80px;
@@ -61,7 +69,7 @@ hr {
     padding:0px 20px;
 }
 
-.quienesVCH, .DestacaVCH {
+#quienesVCH, #DestacaVCH {
     margin-bottom:100px;
 }
 
