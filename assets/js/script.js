@@ -19,6 +19,8 @@ function myFunction3() {
     document.getElementById("destacado3").classList.add("descatadoP");
   }
 
+
+//Alerta por demora en carga de pagina
   function CargaCompleta() {
-    alert("Gracias por la espera, el formulario carga un poco lento <3");
+    alert("Gracias por la espera, el formulario se encuentra listo");
   }
